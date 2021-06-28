@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,25 @@
     <title>Todo App</title>
     <link rel="stylesheet" href="Style.css">
 </head>
-<body>
-    
 
+<body>
+
+    <div class="heading">
+        <h1>ToDo List</h1>
+    </div>
+    <div class="main-box">
+        <input type="text" id="todo-items" placeholder="Enter Your Task">
+        <button onclick="addTodo()" class="add-todo">Add Todo</button>
+        <button onclick="deleteAll()" class="del-btn">Delete All</button>
+        
+        <div id="list">
+            <ul id="todo-list">
+                
+            </ul>
+        </div>
+        
+    </div>
     <script src="app.js"></script>
 </body>
+
 </html>
