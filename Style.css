@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+body{
+    background-image: linear-gradient(to right, #E6DADA , #4e6368);
+}
+.main-box{
+    width: 70%;
+    height:auto;
+    box-shadow:4px 4px 50px DarkSlateGray ;
+    margin: 0px auto;
+    text-align: center;
+    border-top-left-radius:70px;
+    border-bottom-right-radius:70px ;
+}
+li{
+    list-style-type: none;
+    color: CadetBlue;
+    text-transform: capitalize;
+    font-family: 'Shrikhand';
+    font-size: 30px;
+}
+.add-todo , .del-btn{
+    background-image: linear-gradient(to right, #8e9eab 0%, #eef2f3  51%, #8e9eab  100%)
+}
+.add-todo , .del-btn{
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: DimGray;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: inline-block;
+   font-style: italic;
+   font-weight: bold;
+}
+.add-todo:hover {
+   background-position: right center;
+   color: DimGray;
+   text-decoration: none;
+}
+.del-btn:hover {
+    background-position: right center;
+    color: DimGray;
+    text-decoration: none;
+}
+.delete , .edit{
+    background-image: linear-gradient(to right, #abbaab 0%, #ffffff  51%, #4d554d  100%)
+}
+.delete , .edit{
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: DimGray;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: inline-block;
+   font-style: italic;
+   font-weight: bold;
+ }
+ .delete:hover {
+   background-position: right center; 
+   color: DimGray;
+   text-decoration: none;
+ }
+.edit:hover {
+    background-position: right center;
+    color: DimGray;
+    text-decoration: none;
+}
+input{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color:LightSlateGray;
+    margin-right: 60px;
+}
+input::placeholder{
+    font-family: 'Audiowide';
+    font-size: 22px;
+}
+.heading{
+    color:LightSlateGray;
+    text-align: center;
+    font-family: 'Rock Salt';
+    font-size: 32px;
+}
